@@ -23,7 +23,7 @@ params_0=[R f_offset t1 t2 tb fb scale_factor]; % a vector used to store the par
 
 %% Do a test run of the model
 
-f_state1=0:0.01:1; % the fraction of sensor in the bound state
+f_state1=0:0.01:1; % the fraction of sensor in the unbound state
 
 % Fl_model uses the equations in Lodder et al methods section plus
 % additional parameters for background flourescence to calculate a measured
